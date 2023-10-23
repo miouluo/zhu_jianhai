@@ -1,37 +1,27 @@
 # Data Competition Learning Hub
 
 #### 介绍
-Data Competition Learning Hub是一个专注于数据竞赛学习的仓库。我们提供各种类型的数据竞赛资源和教程，包括数据分析、机器学习、深度学习、数据可视化等方面的课程、练习和项目。朋辈小新的学习日常考核，将在仓库里体现。
+Data Competition Learning Hub是一个专注于数据竞赛学习的仓库。我们提供各种类型的数据竞赛资源和教程，包括数据分析、机器学习、深度学习、数据可视化等方面的课程、练习和项目。工作室的学习日常考核，将在仓库里体现。
 
-#### 软件架构
-软件架构说明
+#### 仓库说明
+- 主分支：主要用于给各位创建环境使用
+- 其他分支：其他同学的分支，用于考核~
 
 
-#### 安装教程
+#### 代码分享
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+如果你在学习过程中，写了一段你觉得很好的代码，可以提交Pull Request，在审核通过之后，我们会放在主分支上给大家共同学习~
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
 3.  提交代码
-4.  新建 Pull Request
+4.   **新建 Pull Request(非必须)** 
+
+#### 建议
+
+1.  给自己的项目添加Readme文件，方便我们去审阅代码
+2.  自己在提交时，最好规范提交记录
 
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
