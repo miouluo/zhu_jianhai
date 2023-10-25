@@ -8,4 +8,4 @@ def fibo(n):
 for i in range(1, 31):
     print(fibo(i), end='\t')
     if i % 5 == 0:
-        print()
+        print(fibo=)
