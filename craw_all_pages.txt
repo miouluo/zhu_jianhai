@@ -1,6 +1,0 @@
-http://www.crazyant.net	蚂蚁学Python – 你有没有为写代码拼过命？那你知不知道 人生苦短，我用Python？
-http://www.crazyant.net/3431.html	建立一个少儿编程网站 – 蚂蚁学Python
-http://www.crazyant.net/3421.html	Pip安装库超时的时候可以加源 – 蚂蚁学Python
-http://www.crazyant.net/3404.html	Python的open函数报错’gbk’ codec can’t decode byte – 蚂蚁学Python
-http://www.crazyant.net/3392.html	Pandas的corr和cov函数报错convert string to float – 蚂蚁学Python
-http://www.crazyant.net/3388.html	Pandas的str.replace的开启正则表达式 – 蚂蚁学Python
