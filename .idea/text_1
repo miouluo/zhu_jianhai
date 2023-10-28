@@ -1,0 +1,15 @@
+plt.rcParams['font.sans-serif'] = ['Microsoft YaHei'] #设置字体
+import seaborn as sns
+sns.set(font='SimHei') #设置中文编码
+
+#创建柱状图
+sns.barplot(x=class_num.index[:30],y=class_num[:30],order=class_num.index[:30])
+
+#设计标题
+plt.title('某几种商品类别的分布情况')
+#设计刻度标签
+plt.xticks(rotation=60)
+#设计州标签
+plt.xlabel('goods_class')  #x轴
+plt.ylabel('num')  #y轴
+plt.show()
