@@ -14,5 +14,4 @@ all_in_list[-4:-1]
 all_in_list[:3]
 all_in_list[:]
 
-all_in_list[0:1]
 
