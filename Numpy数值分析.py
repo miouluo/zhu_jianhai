@@ -28,7 +28,7 @@ print(arr3)
 print(arr4)
 print(arr5)
 #help(np.arange) 可以知道函数的使用办法
-arr6 = np.linspace(0,2,11)#(起点、终点、数的个数)生成等比数列
+arr6 = np.linspace(0,2,11)#(起点、终点、数的个数)生成等差数列
 print(arr6)
 arr7 = np.zeros([4,4])#生成全0的数组（几层，几列，几行）
 print(arr7)'''
