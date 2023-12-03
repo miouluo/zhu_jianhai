@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍</title>
+</head>
+
+<body>
+    <h2>个人介绍</h2>
+    <table>
+        <tr>
+            <td>学号</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td> 姓名</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>性别</td>
+            <td>
+                <input type="radio" id="man" name="sex"> <img src="man.jpg"> <label for="man">男</label>
+                <input type="radio" id="woman" name="sex"> <img src="women.jpg"> <label for="woman">女</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>所属地</td>
+            <td>
+                <select>
+                    <option>--请选择地区--</option>
+                    <option>广州市</option>
+                    <option>深圳市</option>
+                    <option>汕头市</option>
+                    <option>潮州市</option>
+                    <option>清远市</option>
+                    <option>江门市</option>
+                    <option>--其他--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td><select name="education">
+                    <option value="1">大专</option>
+                    <option value="2" selected>本科</option>
+                    <option value="3">硕士</option>
+                    <option value="4">研究生</option>
+                    <option value="5">博士</option>
+            </td>
+
+        </tr>
+        <tr>
+            <td> 兴趣爱好</td>
+            <td><input type="checkbox">打篮球
+                <input type="checkbox">跳舞
+                <input type="checkbox">唱歌
+                <input type="checkbox">学习
+            </td>
+        </tr>
+
+        <tr>
+            <td>喜欢的颜色</td>
+            <td><input type="color" name="pic"></td>
+        </tr>
+
+        <tr>
+            <td>自我介绍</td>
+            <td>
+                <textarea cols="30" rows="3">性格开朗。。。。</textarea>
+            </td>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

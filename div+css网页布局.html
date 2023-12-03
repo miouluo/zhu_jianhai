@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>div+css传统网页布局</title>
+	<style>
+		/*公共的css样式*/
+		*{margin:0px; padding:0px;}/*消除与屏幕的外补白*/
+		a{text-decoration:none;}/*所有超链接去除下划线*/
+		ul{list-style:none;}/*废除列表格式*/
+		
+		#header{
+			position: fixed;/*固定定位*/
+			top:0px;
+			/*height:80px; 里面内容可以把它撑开时，这个就可以去除*/
+			width:100%;
+			/*background-color: whitesmoke; 为方便看布局，里面有内容就可以去除了*/
+			border-bottom:1px solid #46474a;
+		}
+		.header-nav{
+			height:80px;
+			width:1200px;
+			background-color:goldenrod;
+			margin: 0px auto;/*上下外补白为0，左右外补白为自适应-居中*/
+		}
+		#nav{
+			margin-top: 80px;
+			background-color:#46474a;
+			height:60px;
+		}
+		#container{
+			width:100%;
+			margin-top:50px;
+		}
+		.conter{
+			width: 1200px;
+			margin:0px auto;
+		}
+		.main{
+			width:950px;
+			margin:0px auto;
+			/*height:800px; 一开始看布局，后面加入内容后撑开，导致内容外溢，所有去除，内容会撑大整个高度*/
+			/*background-color: azure;*/
+		}
+		ul li{
+			display:block;
+			height:220px;
+			line-height:220px;/*行高=高度--内容居中*/
+			width:100%;
+			margin-bottom:20px;
+			/*border:1px dashed #f60; 布局方便看，后期有东西了就删除*/
+		}
+		.main ul li .ids{
+			height:50px;
+			width:50px;
+			margin-top:85px;/*让小图标居中*/
+			margin-bottom:85px;
+			background-color:orange;
+			display:inline-block;/*让pic与ids不要换行*/
+		}
+		.main ul li .pic{
+			height:200px;
+			width:160px;
+			margin:10px 25px;
+			border:1px dashed darkgreen;
+			display:inline-block;/*让pic与ids不要换行*/
+		}
+		.main ul li .info{
+			height:100%;
+			width:680px;
+			float:right;/*靠右*/
+			background-color: snow;
+			border-bottom:1px solid #aaa;
+		}
+		.main ul li .info .info-right{
+			width:80px;
+			height:80px;
+			border:1px dashed orange;
+			float:right;
+			margin-top:70px;
+		}
+		.main ul li .info .info-left{
+			width:300px;
+			height:120px;
+			border:1px dashed orange;
+			margin-top:50px;
+		}
+		#footer{
+			height:300px;
+			background-color:#46474a;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="header-nav">div+css布局实现https://maoyan.com/board</div>
+	</div>
+	<!--导航开始-->
+	<div id="nav"></div>
+	<!--导航开始-->
+	
+	<!--主体页面开始-->
+	<div id="container">
+		<div class="content">
+			<div class="main">
+				<!--电影排行榜列表开始-->
+				<ul>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+					<li>
+						<div class="info"><!--唯一靠右排列，放在第一方便设置靠右-->
+							<div class="info-right"></div>
+							<div class="info-left"></div>
+						</div>
+						<div class="ids"></div>
+						<div class="pic"></div>
+					</li>
+				</ul><!--电影排行列表结束-->
+			</div><!--主体页面结束-->
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>
