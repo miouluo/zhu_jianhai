@@ -1,5 +1,5 @@
 import numpy as np
-
+import pandas as pd
 #数组的索引
 arr1 = np.array([2,5.6,0.33,0.61,0.09])
 print(arr1)
