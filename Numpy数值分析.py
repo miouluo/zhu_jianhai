@@ -1,5 +1,5 @@
 import numpy as np
-'''
+
 arr1 = np.array([0.3,0.5,4.2])#一维列表
 arr2 = np.array([[1,2,3],[5,6,1]])
 print(arr1)
@@ -12,8 +12,7 @@ print(arr1.dtype)
 print(arr2.shape)
 print(arr2.dtype)
 print(arr2.ndim)
-'''
-'''
+
 #初识数组的特点
 list1 = [0.3,0.5,4.2]
 arr1 = np.array ([0.3,0.5,4.2])
@@ -31,7 +30,7 @@ print(arr5)
 arr6 = np.linspace(0,2,11)#(起点、终点、数的个数)生成等差数列
 print(arr6)
 arr7 = np.zeros([4,4])#生成全0的数组（几层，几列，几行）
-print(arr7)'''
+print(arr7)
 
 #数组的数据类型及其转变
 arr8 = np.array([4,8,6],dtype=np.float32)#在定义数组的时候该数据类型
